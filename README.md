@@ -2,14 +2,6 @@
 
 A React-based educational dashboard that displays student profiles and their academic performance scores. This application demonstrates the use of React components, state management, and responsive design principles.
 
-## Features
-
-- Display student profiles with biographical information
-- Visualize academic scores for each student
-- Responsive grid layout that adapts to different screen sizes
-- Professional academic styling with smooth animations
-- Clean and intuitive user interface
-
 ## Component Structure
 
 The application is built using three main components:
