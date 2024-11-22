@@ -1,31 +1,55 @@
 .learner-card {
   background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.learner-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .learner-card h2 {
-  color: #333;
-  margin-bottom: 10px;
+  color: #09203f;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 2px solid #537895;
+  padding-bottom: 8px;
 }
 
 .bio {
-  color: #666;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  margin-bottom: 20px;
+  color: #4a4a4a;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  padding: 15px;
+  background: rgba(83, 120, 149, 0.05);
+  border-radius: 8px;
 }
 
 .scores-container {
-  background: #f5f5f5;
-  padding: 15px;
-  border-radius: 6px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(83, 120, 149, 0.2);
 }
 
 .scores-container h3 {
-  color: #444;
-  margin-bottom: 10px;
+  color: #09203f;
+  margin-bottom: 15px;
   font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.scores-container h3::before {
+  content: "📊";
+  margin-right: 8px;
+  font-size: 1.2rem;
 }
